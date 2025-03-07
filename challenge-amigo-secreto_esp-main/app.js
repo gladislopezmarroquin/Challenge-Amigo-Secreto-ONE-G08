@@ -3,6 +3,7 @@
 let amigos = [];
 let lista = document.getElementById('listaAmigos');
 let resultado = document.getElementById('resultado');
+let id_amigo = document.getElementById('amigo');
 
 let regex = /\d/;
 
@@ -22,6 +23,8 @@ function agregarAmigo(){
         let li = document.createElement("li");
         li.textContent = contenido;
         lista.appendChild(li);
+        document.getElementById('amigo').value = "";
+
     }
     
     console.log(amigos);
@@ -45,6 +48,7 @@ function sortearAmigo(){
         console.log(amigoSelect);
         let li_resultado = document.createElement("li");
         li_resultado.textContent = amigoSelect;
+        vaciarLista();
         resultado.appendChild(li_resultado); 
 
 
