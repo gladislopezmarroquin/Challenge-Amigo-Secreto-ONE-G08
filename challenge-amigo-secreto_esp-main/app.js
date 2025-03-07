@@ -2,7 +2,7 @@
 
 let amigos = [];
 let lista = document.getElementById('listaAmigos');
-let resulatado = document.getElementById('resultado');
+let resultado = document.getElementById('resultado');
 
 let regex = /\d/;
 
@@ -29,8 +29,8 @@ function agregarAmigo(){
 }
 
 function generaAleatorio(){
-    if(amigos.length > 0){
-        return Math.floor(Math.random() * amigos.length) + 1;  
+    if(amigos.length >= 0){
+        return Math.floor(Math.random() * amigos.length);  
     }
     return 0;    
     
@@ -41,12 +41,21 @@ function sortearAmigo(){
         alert("Ingrese los nombres de sus amigos");
     }else{
         let indiceAmigo = generaAleatorio(); 
+        let amigoSelect = amigos[indiceAmigo];
+        console.log(amigoSelect);
+        let li_resultado = document.createElement("li");
+        li_resultado.textContent = amigoSelect;
+        resultado.appendChild(li_resultado); 
+
 
     } 
     
 }
 
-function vaciarArregloUL(){
+function vaciarArreglo(){
     amigos = [];
+}
+
+function vaciarLista(){
     lista.innerHTML = "";
 }
