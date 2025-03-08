@@ -51,7 +51,7 @@ function sortearAmigo(){
         vaciarLista();
         resultado.appendChild(li_resultado); 
 
-
+        vaciarArreglo();
     } 
     
 }
