@@ -91,7 +91,7 @@ nombre en la pantalla, de uno de los amigos ingresados.
 <p>2- Abrir el archivo index.html en el navegador</p>
 
 ## *:woman_technologist:Desarrollador*
-<p>Desarrollado por: [Gladis L Marroquín] () </p>
+<p>Desarrollado por: [Gladis L Marroquín] (https://github.com/gladislopezmarroquin) </p>
 
 
 
