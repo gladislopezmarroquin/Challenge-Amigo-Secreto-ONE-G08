@@ -8,12 +8,13 @@
   Challenge Amigo Secreto 
 </h1>
 <h2 align="center" style="margin-bottom: 5px; font-size: 32px; font-weight: bold;">
-  Alura Latam G-08
+ 
 </h2>
 
 <p> 
-Este es un proyecto realizado para una práctica de los conocimientos adquiridos en el programa ONE (One Next Education) de oracle, impartido por los especialistas de Alura Latam.
-Consiste en una aplicación interactiva, en donde los usuarios pueden ingresar nombres de amigos y éste lo enlista para posterior realizar un sorteo y como resultado podrá dar el 
+Aplicación web interactiva desarrollada con JavaScript que permite registrar participantes y realizar un sorteo aleatorio mediante manipulación dinámica del DOM.
+
+Consiste en que los usuarios pueden ingresar nombres de amigos y éste lo enlista para posterior realizar un sorteo y como resultado podrá dar el 
 nombre en la pantalla, de uno de los amigos ingresados.
 </p>
 
